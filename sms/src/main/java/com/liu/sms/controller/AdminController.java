@@ -108,7 +108,7 @@ public class AdminController {
     // 真实修改学生信息业务
     @RequestMapping(value = "/editStudent", method = {RequestMethod.POST})
     public String editStudent(StudentCustom studentCustom) throws Exception {
-        studentService.updataById(studentCustom.getUserid(), studentCustom);
+        studentService.updateById(studentCustom.getUserid(), studentCustom);
         // 重定向
         return "redirect:/admin/showStudent";
     }
@@ -298,7 +298,7 @@ public class AdminController {
     // 真实修改课程信息页面
     @RequestMapping(value = "/editCourse", method = {RequestMethod.POST})
     public String editCourse(CourseCustom courseCustom) throws Exception {
-        courseService.upadteById(courseCustom.getCourseid(), courseCustom);
+        courseService.updateById(courseCustom.getCourseid(), courseCustom);
         return "redirect:/admin/showCourse";
     }
 

@@ -13,6 +13,7 @@ public class RoleServiceImpl implements RoleService {
     @Autowired
     private RoleMapper roleMapper;
 
+    @Override
     public Role findByid(Integer id) throws Exception {
         return roleMapper.selectByPrimaryKey(id);
     }

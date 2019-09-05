@@ -10,4 +10,8 @@
         limit #{toPageNo}, #{pageSize}
     </select>
 
+    <select id="findByCourseWithTeacher" parameterType="com.liu.sms.po.CourseCustom" resultType="com.liu.sms.po.CourseCustom">
+        select course.* from course where course.courseName like '%${coursename}%' and course.teacherID = #{teacherID}
+    </select>
+
 </mapper>

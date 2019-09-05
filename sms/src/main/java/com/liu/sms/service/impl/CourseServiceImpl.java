@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @Service
@@ -29,10 +30,12 @@ public class CourseServiceImpl implements CourseService {
     @Autowired
     private SelectedcourseMapper selectedcourseMapper;
 
-    public void upadteById(Integer id, CourseCustom courseCustom) throws Exception {
+    @Override
+    public void updateById(Integer id, CourseCustom courseCustom) throws Exception {
         courseMapper.updateByPrimaryKey(courseCustom);
     }
 
+    @Override
     public Boolean removeById(Integer id) throws Exception {
         //自定义查询条件
         SelectedcourseExample example = new SelectedcourseExample();
@@ -48,6 +51,7 @@ public class CourseServiceImpl implements CourseService {
         return false;
     }
 
+    @Override
     public List<CourseCustom> findByPaging(Integer toPageNo) throws Exception {
         PagingVO pagingVO = new PagingVO();
         pagingVO.setToPageNo(toPageNo);
@@ -56,6 +60,7 @@ public class CourseServiceImpl implements CourseService {
         return list;
     }
 
+    @Override
     public Boolean save(CourseCustom couseCustom) throws Exception {
         Course course = courseMapper.selectByPrimaryKey(couseCustom.getCourseid());
         if (course == null) {
@@ -65,6 +70,7 @@ public class CourseServiceImpl implements CourseService {
         return false;
     }
 
+    @Override
     public int getCountCourse() throws Exception {
         //自定义查询对象
         CourseExample courseExample = new CourseExample();
@@ -75,6 +81,7 @@ public class CourseServiceImpl implements CourseService {
         return courseMapper.countByExample(courseExample);
     }
 
+    @Override
     public CourseCustom findById(Integer id) throws Exception {
         Course course = courseMapper.selectByPrimaryKey(id);
         CourseCustom courseCustom = null;
@@ -86,6 +93,7 @@ public class CourseServiceImpl implements CourseService {
         return courseCustom;
     }
 
+    @Override
     public List<CourseCustom> findByName(String name) throws Exception {
         CourseExample courseExample = new CourseExample();
         //自定义查询条件
@@ -114,6 +122,7 @@ public class CourseServiceImpl implements CourseService {
         return courseCustomList;
     }
 
+    @Override
     public List<CourseCustom> findByTeacherID(Integer id) throws Exception {
         CourseExample courseExample = new CourseExample();
         //自定义查询条件
@@ -139,5 +148,10 @@ public class CourseServiceImpl implements CourseService {
         }
 
         return courseCustomList;
+    }
+
+    @Override
+    public List<CourseCustom> findByCourseWithTeacher(CourseCustom courseCustom) throws Exception {
+        return courseMapperCustom.findByCourseWithTeacher(courseCustom);
     }
 }

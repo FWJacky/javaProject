@@ -1,4 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,27 +25,32 @@
 				<div class="panel panel-default">
 				    <div class="panel-heading">
 						<div class="row">
-					    	<h1 style="text-align: center;">修改密码</h1>
+					    	<h1 style="text-align: center;">学生打分</h1>
 						</div>
 				    </div>
 				    <div class="panel-body">
-						<form name="reset" class="form-horizontal" role="form" action="/teacher/passwordRest" id="editfrom" method="post" onsubmit="return check()">
-							  <div class="form-group">
-							    <label for="inputPassword2" class="col-sm-2 control-label">旧密码</label>
+						<form name="reset" class="form-horizontal" role="form" action="/teacher/mark" id="editfrom" method="post" onsubmit="return check()">
+							<div class="form-group">
+								<div class="col-sm-10">
+									<input  readonly="readonly" type="hidden" class="form-control" name="courseid" id="inputCourseId3" value="${selectedCourse.courseid}">
+								</div>
+							</div>
+							<div class="form-group">
+							    <label for="inputEmail3" class="col-sm-2 control-label">学号</label>
 							    <div class="col-sm-10">
-							      <input type="password" class="form-control" name="oldPassword" id="inputPassword2" placeholder="请输入旧密码" >
+							      <input  readonly="readonly" type="text" class="form-control" name="studentid" id="inputEmail3" value="${selectedCourse.studentid}">
 							    </div>
 							  </div>
 							  <div class="form-group">
-							    <label for="inputPassword3" class="col-sm-2 control-label">新密码</label>
+							    <label for="inputPassword3" class="col-sm-2 control-label">姓名</label>
 							    <div class="col-sm-10">
-							      <input type="password" name="password1" class="form-control" id="inputPassword3" placeholder="请输入密码">
+							      <input  readonly="readonly" type="text" name="name" class="form-control" id="inputUsername" value="${selectedCourse.studentCustom.username}">
 							    </div>
 							  </div>
 							  <div class="form-group">
-							    <label for="inputPassword4" class="col-sm-2 control-label">确认密码</label>
+							    <label for="inputPassword3" class="col-sm-2 control-label">成绩</label>
 							    <div class="col-sm-10">
-							      <input type="password" name="password2" class="form-control" id="inputPassword4" placeholder="请再次输入密码">
+							      <input type="number" name="mark" class="form-control" id="inputPassword3" placeholder="请输入成绩">
 							    </div>
 							  </div>
 							  <div class="form-group" style="text-align: center">
@@ -64,18 +72,10 @@
 	</div>
 </body>
 <script>
-    $("#nav li:nth-child(2)").addClass("active")
+    $("#nav li:nth-child(1)").addClass("active")
     function check() {
-        if(reset.oldPassword.value==""||reset.oldPassword.value==null)
-        {alert("请输入旧账户密码");return false;}
-        if(reset.password1.value==""||reset.password1.value==null)
-        {alert("请输入重置密码");return false;}
-        if(reset.password2.value==""||reset.password2.value==null)
-        {alert("请输入再次输入密码");return false;}
-        if(reset.password1.value != reset.password2.value)
-        {alert("两次密码不正确");return false;}else {
-			alert("密码重置成功！请重新登录！")
-		}
+        if(reset.mark.value==""||reset.mark.value==null)
+        {alert("请输入成绩");return false;}
     }
 </script>
 </html>

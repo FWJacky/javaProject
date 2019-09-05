@@ -23,10 +23,8 @@ public class SelectedCourseServiceImpl implements SelectedCourseService {
     @Autowired
     private StudentMapper studentMapper;
 
-//    @Resource(name = "courseServiceImpl")
-//    private CourseService courseService;
 
-
+    @Override
     public List<SelectedCourseCustom> findByCourseID(Integer id) throws Exception {
 
         SelectedcourseExample example = new SelectedcourseExample();
@@ -54,11 +52,13 @@ public class SelectedCourseServiceImpl implements SelectedCourseService {
         return secList;
     }
 
+    @Override
     public List<SelectedCourseCustom> findByCourseIDPaging(Integer page, Integer id) throws Exception {
         return null;
     }
 
     //获取该课程学生数
+    @Override
     public Integer countByCourseID(Integer id) throws Exception {
         SelectedcourseExample example = new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria = example.createCriteria();
@@ -68,6 +68,7 @@ public class SelectedCourseServiceImpl implements SelectedCourseService {
     }
 
     //查询指定学生成绩
+    @Override
     public SelectedCourseCustom findOne(SelectedCourseCustom selectedCourseCustom) throws Exception {
 
         SelectedcourseExample example = new SelectedcourseExample();
@@ -95,7 +96,8 @@ public class SelectedCourseServiceImpl implements SelectedCourseService {
         return null;
     }
 
-    public void updataOne(SelectedCourseCustom selectedCourseCustom) throws Exception {
+    @Override
+    public void updateOne(SelectedCourseCustom selectedCourseCustom) throws Exception {
         SelectedcourseExample example = new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria = example.createCriteria();
 
@@ -106,14 +108,17 @@ public class SelectedCourseServiceImpl implements SelectedCourseService {
 
     }
 
+    @Override
     public void save(SelectedCourseCustom selectedCourseCustom) throws Exception {
         selectedcourseMapper.insert(selectedCourseCustom);
     }
 
+    @Override
     public List<SelectedCourseCustom> findByStudentID(Integer id) throws Exception {
         return null;
     }
 
+    @Override
     public void remove(SelectedCourseCustom selectedCourseCustom) throws Exception {
         SelectedcourseExample example = new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria = example.createCriteria();

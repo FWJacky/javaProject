@@ -6,10 +6,10 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- 引入bootstrap -->
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 	<!-- 引入JQuery  bootstrap.js-->
-	<script src="/js/jquery-3.2.1.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!-- 顶栏 -->
@@ -73,7 +73,9 @@
         if(reset.password2.value==""||reset.password2.value==null)
         {alert("请输入再次输入密码");return false;}
         if(reset.password1.value != reset.password2.value)
-        {alert("两次密码不正确");return false;}
+        {alert("两次密码不正确");return false;}else {
+			alert("密码重置成功！请重新登录！")
+		}
     }
 </script>
 </html>

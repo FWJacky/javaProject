@@ -3,13 +3,15 @@ package com.liu.sms.service;
 import com.liu.sms.po.CourseCustom;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * CourseService课程信息.
  */
 public interface CourseService {
+
     //根据id更新课程信息
-    void upadteById(Integer id, CourseCustom courseCustom) throws Exception;
+    void updateById(Integer id, CourseCustom courseCustom) throws Exception;
 
     //根据id删除课程信息
     Boolean removeById(Integer id) throws Exception;
@@ -31,4 +33,7 @@ public interface CourseService {
 
     //根据教师id查找课程
     List<CourseCustom> findByTeacherID(Integer id) throws Exception;
+
+    // 根据课程名查找对应教师的课程
+    List<CourseCustom> findByCourseWithTeacher(CourseCustom courseCustom) throws Exception;
 }

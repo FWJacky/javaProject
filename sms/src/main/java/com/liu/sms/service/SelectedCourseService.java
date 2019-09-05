@@ -23,7 +23,7 @@ public interface SelectedCourseService {
     SelectedCourseCustom findOne(SelectedCourseCustom selectedCourseCustom) throws Exception;
 
     //打分
-    void updataOne(SelectedCourseCustom selectedCourseCustom) throws Exception;
+    void updateOne(SelectedCourseCustom selectedCourseCustom) throws Exception;
 
     //选课
     void save(SelectedCourseCustom selectedCourseCustom) throws Exception;

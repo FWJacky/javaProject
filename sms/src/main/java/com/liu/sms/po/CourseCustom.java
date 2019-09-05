@@ -13,6 +13,16 @@ public class CourseCustom extends Course {
     // 所属老师
     private String teacherName;
 
+    private Integer teacherID;
+
+    public Integer getTeacherID() {
+        return teacherID;
+    }
+
+    public void setTeacherID(Integer teacherID) {
+        this.teacherID = teacherID;
+    }
+
     public String getTeacherName() {
         return teacherName;
     }

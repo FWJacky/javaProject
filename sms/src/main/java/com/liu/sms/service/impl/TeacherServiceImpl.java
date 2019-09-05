@@ -30,10 +30,12 @@ public class TeacherServiceImpl implements TeacherService {
     @Autowired
     private CourseMapper courseMapper;
 
+    @Override
     public void updateById(Integer id, TeacherCustom teacherCustom) throws Exception {
         teacherMapper.updateByPrimaryKey(teacherCustom);
     }
 
+    @Override
     public void removeById(Integer id) throws Exception {
         CourseExample courseExample = new CourseExample();
 
@@ -48,6 +50,7 @@ public class TeacherServiceImpl implements TeacherService {
         teacherMapper.deleteByPrimaryKey(id);
     }
 
+    @Override
     public List<TeacherCustom> findByPaging(Integer toPageNo) throws Exception {
         PagingVO pagingVO = new PagingVO();
         pagingVO.setToPageNo(toPageNo);
@@ -57,6 +60,7 @@ public class TeacherServiceImpl implements TeacherService {
         return list;
     }
 
+    @Override
     public Boolean save(TeacherCustom teacherCustom) throws Exception {
 
         Teacher tea = teacherMapper.selectByPrimaryKey(teacherCustom.getUserid());
@@ -67,6 +71,7 @@ public class TeacherServiceImpl implements TeacherService {
         return false;
     }
 
+    @Override
     public int getCountTeacher() throws Exception {
         //自定义查询对象
         TeacherExample teacherExample = new TeacherExample();
@@ -77,6 +82,7 @@ public class TeacherServiceImpl implements TeacherService {
         return teacherMapper.countByExample(teacherExample);
     }
 
+    @Override
     public TeacherCustom findById(Integer id) throws Exception {
         Teacher teacher = teacherMapper.selectByPrimaryKey(id);
         TeacherCustom teacherCustom = null;
@@ -88,6 +94,7 @@ public class TeacherServiceImpl implements TeacherService {
         return teacherCustom;
     }
 
+    @Override
     public List<TeacherCustom> findByName(String name) throws Exception {
         TeacherExample teacherExample = new TeacherExample();
         //自定义查询条件
@@ -116,6 +123,7 @@ public class TeacherServiceImpl implements TeacherService {
         return teacherCustomList;
     }
 
+    @Override
     public List<TeacherCustom> findAll() throws Exception {
 
         TeacherExample teacherExample = new TeacherExample();
@@ -126,7 +134,7 @@ public class TeacherServiceImpl implements TeacherService {
         List<Teacher> list = teacherMapper.selectByExample(teacherExample);
         List<TeacherCustom> teacherCustomsList = null;
         if (list != null) {
-            teacherCustomsList = new ArrayList<TeacherCustom>();
+            teacherCustomsList = new ArrayList<>();
             for (Teacher t: list) {
                 TeacherCustom teacherCustom = new TeacherCustom();
                 BeanUtils.copyProperties(t, teacherCustom);

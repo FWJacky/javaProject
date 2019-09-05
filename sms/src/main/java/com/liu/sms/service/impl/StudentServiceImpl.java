@@ -26,14 +26,17 @@ public class StudentServiceImpl implements StudentService {
     @Autowired
     private CollegeMapper collegeMapper;
 
-    public void updataById(Integer id, StudentCustom studentCustom) throws Exception {
+    @Override
+    public void updateById(Integer id, StudentCustom studentCustom) throws Exception {
         studentMapper.updateByPrimaryKey(studentCustom);
     }
 
+    @Override
     public void removeById(Integer id) throws Exception {
         studentMapper.deleteByPrimaryKey(id);
     }
 
+    @Override
     public List<StudentCustom> findByPaging(Integer toPageNo) throws Exception {
         PagingVO pagingVO = new PagingVO();
         pagingVO.setToPageNo(toPageNo);
@@ -43,6 +46,7 @@ public class StudentServiceImpl implements StudentService {
         return list;
     }
 
+    @Override
     public Boolean save(StudentCustom studentCustoms) throws Exception {
         Student stu = studentMapper.selectByPrimaryKey(studentCustoms.getUserid());
         if (stu == null) {
@@ -54,6 +58,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     //返回学生总数
+    @Override
     public int getCountStudent() throws Exception {
         //自定义查询对象
         StudentExample studentExample = new StudentExample();
@@ -64,6 +69,7 @@ public class StudentServiceImpl implements StudentService {
         return studentMapper.countByExample(studentExample);
     }
 
+    @Override
     public StudentCustom findById(Integer id) throws Exception {
 
         Student student  = studentMapper.selectByPrimaryKey(id);
@@ -78,6 +84,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     //模糊查询
+    @Override
     public List<StudentCustom> findByName(String name) throws Exception {
 
         StudentExample studentExample = new StudentExample();
@@ -107,7 +114,7 @@ public class StudentServiceImpl implements StudentService {
         return studentCustomList;
     }
 
-
+    @Override
     public StudentCustom findStudentAndSelectCourseListByName(String name) throws Exception {
 
         StudentCustom studentCustom = studentMapperCustom.findStudentAndSelectCourseListById(Integer.parseInt(name));
