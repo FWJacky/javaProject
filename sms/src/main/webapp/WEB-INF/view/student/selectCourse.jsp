@@ -59,10 +59,12 @@
                                 <td>${item.couseCustom.coursetype}</td>
                                 <td>${item.couseCustom.score}</td>
                                 <td>
+                                        <%--                                    <button class="btn btn-default btn-xs btn-info"--%>
+                                        <%--                                            onClick="window.location.href='/student/outCourse?id=${item.courseid}'">退课--%>
+                                        <%--                                    </button>--%>
                                     <button class="btn btn-default btn-xs btn-info"
-                                            onClick="location.href='/student/outCourse?id=${item.courseid}'">退课
+                                            onClick="return confirmd('${item.courseid}')">退课
                                     </button>
-                                    <!--弹出框-->
                                 </td>
                             </tr>
                         </c:if>
@@ -126,13 +128,18 @@
     ;
     </c:if>
 
-    function confirmd() {
-        var msg = "您真的确定要删除吗？！";
+    function confirmd(e) {
+        var msg = "您真的确定要退课吗？！";
         if (confirm(msg) == true) {
+            goto(e);
             return true;
         } else {
             return false;
         }
+    }
+
+    function goto(e) {
+        return window.location.href = '/student/outCourse?id=' + e;
     }
 
     $("#sub").click(function () {

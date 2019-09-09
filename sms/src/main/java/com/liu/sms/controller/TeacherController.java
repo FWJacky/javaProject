@@ -1,7 +1,10 @@
 package com.liu.sms.controller;
 
 import com.liu.sms.exception.CustomException;
-import com.liu.sms.po.*;
+import com.liu.sms.po.CourseCustom;
+import com.liu.sms.po.SelectedCourseCustom;
+import com.liu.sms.po.TeacherCustom;
+import com.liu.sms.po.Userlogin;
 import com.liu.sms.service.CourseService;
 import com.liu.sms.service.SelectedCourseService;
 import com.liu.sms.service.TeacherService;
@@ -15,9 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @ClassName TeacherController

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.liu.sms.mapper.CourseMapperCustom">
+
+    <select id="findByPaging" parameterType="com.liu.sms.po.PagingVO" resultType="com.liu.sms.po.CourseCustom">
+        select course.*, college.collegeName
+        from course, college
+        WHERE course.collegeID = college.collegeID
+        limit #{toPageNo}, #{pageSize}
+    </select>
+
+    <select id="findByCourseWithTeacher" parameterType="com.liu.sms.po.CourseCustom" resultType="com.liu.sms.po.CourseCustom">
+        select course.* from course where course.courseName like '%${coursename}%' and course.teacherID = #{teacherID}
+    </select>
+
+</mapper>

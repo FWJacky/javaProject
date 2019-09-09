@@ -27,7 +27,7 @@
 	<div class="container" id="top">
 		<div class="row" style="margin-top: 280px; ">
 			<div class="col-md-4"></div>
-			<div class="col-md-4" id="login-box">
+			<div class="col-md-4" id="login-box" style="width: 200px;padding:35px;margin-left: 825px">
 				<form class="form-horizontal" role="form" action="/login" id="from1" method="post">
 				  <div class="form-group">
 				    <%--@declare id="firstname"--%><label for="firstname" class="col-sm-3 control-label">用户id</label>

@@ -6,7 +6,117 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d13316c0-fdf0-4a6e-b992-09e967b15cc4" name="Default Changelist" comment="" />
+    <list default="true" id="cc8a1ccd-2943-4709-b0f2-fcbf0cdbc079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sms_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sms_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sms_system_demo/sms_system_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/mapper/CourseMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/mapper/CourseMapperCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/po/CourseCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/po/CourseCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/realm/LoginRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/realm/LoginRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/SelectedCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/SelectedCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/impl/SelectedCourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/service/impl/SelectedCourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/sms/util/DateConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/sms/util/DateConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-convert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-convert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student/selectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student/selectCourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teacher/mark.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/po/CourseCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/po/CourseCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/sms/service/impl/SelectedCourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/sms/service/impl/SelectedCourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/po/CourseCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/po/CourseCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/service/impl/SelectedCourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/com/liu/sms/service/impl/SelectedCourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/classes/spring/applicationContext-controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/classes/spring/applicationContext-controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/view/admin/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/view/admin/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/view/student/selectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/WEB-INF/view/student/selectCourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/WEB-INF/view/teacher/mark.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sms/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/sms/login.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +126,22 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="db" />
-        <option value="xxxMapConfig" />
-        <option value="applicationContext" />
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,26 +162,24 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1QB3xeXaPIgqTmoYiyKlQLqaFtE" />
+  <component name="ProjectId" id="1QXdLZej3KLH2FmZL6qrZ8ieeHW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/spring" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.48039216" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\sms\src\main\webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\sms\src\main\webapp\WEB-INF" />
-      <recent name="E:\project\sms\src\main\webapp\WEB-INF\view\admin" />
-      <recent name="E:\project\sms\src\main\java\com\liu\sms\controller" />
-      <recent name="E:\project\sms\src\main\webapp\WEB-INF\view" />
-      <recent name="E:\project\sms\src\main\webapp" />
+      <recent name="E:\idea本地仓库\personalAccountant\sms\src\main\resources\spring" />
+      <recent name="E:\idea本地仓库\personalAccountant\sms\src\main\webapp" />
+      <recent name="E:\idea本地仓库\personalAccountant\sms\src\main\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,18 +195,19 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="sms" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="sms3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sms3/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="sms:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/sms3" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sms" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sms_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -100,7 +215,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="5862" />
+        <option name="DEBUG_PORT" value="13940" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -160,24 +275,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d13316c0-fdf0-4a6e-b992-09e967b15cc4" name="Default Changelist" comment="" />
-      <created>1567230409335</created>
+      <changelist id="cc8a1ccd-2943-4709-b0f2-fcbf0cdbc079" name="Default Changelist" comment="" />
+      <created>1567920819919</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567230409335</updated>
-      <workItem from="1567230413008" duration="18305000" />
-      <workItem from="1567304270543" duration="5641000" />
-      <workItem from="1567334370961" duration="1275000" />
-      <workItem from="1567426768249" duration="2516000" />
-      <workItem from="1567433469752" duration="6701000" />
-      <workItem from="1567509628705" duration="12495000" />
-      <workItem from="1567605169234" duration="6557000" />
-      <workItem from="1567685755522" duration="7980000" />
-      <workItem from="1567700316545" duration="721000" />
+      <updated>1567920819919</updated>
+      <workItem from="1567920823014" duration="139000" />
+      <workItem from="1567921148792" duration="48000" />
+      <workItem from="1567921211483" duration="338000" />
+      <workItem from="1567921571096" duration="657000" />
+      <workItem from="1567922378367" duration="3381000" />
+      <workItem from="1567925788837" duration="64000" />
+      <workItem from="1567926203053" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

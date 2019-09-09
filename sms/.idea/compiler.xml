@@ -9,5 +9,8 @@
         <module name="sms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sms" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

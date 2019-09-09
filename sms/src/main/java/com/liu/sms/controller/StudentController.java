@@ -118,7 +118,7 @@ public class StudentController {
         for (SelectedCourseCustom selectedCourseCustom : list) {
             CourseCustom courseCustom = selectedCourseCustom.getCouseCustom();
             TeacherCustom teacherCustom = teacherService.findById(courseCustom.getTeacherid());
-            if(teacherCustom != null) {
+            if (teacherCustom != null) {
                 courseCustom.setTeacherName(teacherCustom.getUsername());
             }
         }
@@ -135,7 +135,14 @@ public class StudentController {
         Userlogin userlogin = (Userlogin) subject.getSession().getAttribute("user");
         StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName(userlogin.getUsername());
         List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
-        model.addAttribute("selectedCourseList",list);
+        for (SelectedCourseCustom selectedCourseCustom : list) {
+            CourseCustom courseCustom = selectedCourseCustom.getCouseCustom();
+            TeacherCustom teacherCustom = teacherService.findById(courseCustom.getTeacherid());
+            if(teacherCustom != null) {
+                courseCustom.setTeacherName(teacherCustom.getUsername());
+            }
+        }
+        model.addAttribute("selectedCourseList", list);
         return "/student/overCourse";
     }
 

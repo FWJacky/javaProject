@@ -21,8 +21,6 @@
 
     <mvc:annotation-driven conversion-service="conversionService"/>
 
-    <mvc:default-servlet-handler/>
-
     <bean class="com.liu.sms.exception.CustomExceptionResolver"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

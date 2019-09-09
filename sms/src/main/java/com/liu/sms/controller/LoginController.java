@@ -18,13 +18,13 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
 
     //登录跳转
-    @RequestMapping(value = "/login", method = {RequestMethod.GET})
+    @RequestMapping(value = "login", method = {RequestMethod.GET})
     public String loginUI() throws Exception {
         return "../../login";
     }
 
     //登录表单处理
-    @RequestMapping(value = "/login", method = {RequestMethod.POST})
+    @RequestMapping(value = "login", method = {RequestMethod.POST})
     public String login(Userlogin userlogin, HttpServletRequest request, Model model) {
         //Shiro实现登录
         UsernamePasswordToken token = new UsernamePasswordToken(userlogin.getUsername(),
@@ -46,6 +46,6 @@ public class LoginController {
         } else if (subject.hasRole("student")) {
             return "redirect:/student/showCourse";
         }
-        return "/login";
+        return "login";
     }
 }
